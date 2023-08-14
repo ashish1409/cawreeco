@@ -1,0 +1,25 @@
+.dashboardWrapper {
+  background-image: url("https://www.freecodecamp.org/news/content/images/size/w2000/2021/06/w-qjCHPZbeXCQ-unsplash.jpg");
+
+  height: 100%;
+  width: 100%;
+  position: relative;
+  opacity: 0.65;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.dashboardInner1 {
+  width: 70%;
+}
+.dashboardInner2 {
+  width: 30%;
+  background-color: rgb(65, 194, 147);
+}
+.image {
+  height: 50%;
+  width: 50%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}

@@ -1,0 +1,204 @@
+/* Popup style */
+.popup-box {
+  position: fixed;
+  background: #00000050;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+
+.box {
+  position: relative;
+  width: 70%;
+  margin: 0 auto;
+  height: auto;
+  max-height: 70vh;
+  margin-top: calc(100vh - 85vh - 20px);
+  background: #fff;
+  border-radius: 4px;
+  padding: 20px;
+  border: 1px solid #999;
+  overflow: auto;
+}
+.box.missing {
+  width: 300px;
+}
+.close-icon {
+  content: "x";
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  line-height: 20px;
+  text-align: center;
+  font-size: 20px;
+}
+
+button.noAction,
+button.yesAction {
+  background: transparent;
+  border: none;
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0 10px;
+  float: right;
+}
+.productHeading .title {
+  font-size: 14px;
+  width: 90%;
+  margin-bottom: 5px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.productHeading .subTitle {
+  font-size: 10px;
+  width: 90%;
+  margin-bottom: 0;
+  color: #999;
+}
+.box.edit {
+  width: 560px;
+}
+.editBody {
+  display: flex;
+}
+
+.productImage {
+  width: 80px;
+  padding-right: 30px;
+}
+.productImage > img {
+  width: 100%;
+}
+.editBody {
+  display: flex;
+  padding: 30px 30px 30px 10px;
+}
+
+.productPrice {
+  font-size: 12px;
+  color: #999;
+  margin-right: 30px;
+}
+
+.productValueInner {
+  border: 0.1rem solid #e3e3e3;
+  border-radius: 4px;
+  margin: 14px 32px;
+  outline: none;
+  color: #787a82;
+  padding: 10;
+  font-size: 14;
+  text-align: center;
+  width: 50px;
+}
+
+.productQuantityText {
+  font-size: 12px;
+  color: #999;
+}
+
+.productActionsWrapper {
+  background-color: #3ccb72;
+  height: 34px;
+  border-radius: 6px;
+}
+.productActionsBtn1 {
+  background-color: #3ccb72;
+  width: 24px;
+  height: 30px;
+  border-radius: 1rem;
+  border: none;
+  font-size: 1.5rem;
+  line-height: 10px;
+  color: #fff;
+}
+
+.productActionsInput {
+  border: none;
+  margin: 0 0.5rem;
+  border-radius: 4px;
+  outline: none;
+  color: #787a82;
+  padding: 10px;
+  font-size: 14;
+  text-align: center;
+  width: 40px;
+  color: #fff;
+  background-color: transparent;
+}
+.productActionsBtn2 {
+  background-color: #3ccb72;
+  width: 24px;
+  height: 30px;
+  border-radius: 1rem;
+  border: none;
+  font-size: 1.3rem;
+  line-height: 0;
+  color: #fff;
+}
+.productTotalBlock {
+  font-size: 12px;
+  color: #999;
+}
+.productTotalText {
+  font-size: 12px;
+  color: #999;
+  margin-right: 30px;
+  padding: 20px 30px 30px 10px;
+}
+
+.productTotalPrice {
+  font-size: 12px;
+  color: #999;
+  text-align: center;
+}
+.productOption {
+  font-size: 14px;
+  line-height: 2;
+}
+.productOption span {
+  font-size: 10px;
+  color: #999;
+}
+.statusToggle {
+  margin-bottom: 20px;
+}
+.statusToggle div {
+  color: #333;
+  padding: 0.2em 0.6em 0.3em;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin-right: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+.statusToggle .active {
+  background-color: #1e633f;
+  border: 1px solid #1e633f !important;
+  white-space: nowrap;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+  font-size: 14;
+  border-radius: 0.5rem;
+  user-select: none;
+  padding: 6px 10px;
+  margin-left: 10px;
+  transition: all 0.2s ease-in;
+}
+
+.orderAction {
+  float: right;
+  display: flex;
+}

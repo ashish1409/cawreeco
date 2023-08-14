@@ -1,0 +1,133 @@
+{
+  "fruits": [
+    {
+      "id": 1,
+      "details": "Apple are tropical fruits. The principal countries producing avocado are Mexico, Dominican Republic, Peru, Colombia, Indonesia, Kenia, Chile and Israel",
+
+      "name": "Apple",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Red_Apple.jpg/265px-Red_Apple.jpg",
+      "Quantity": "0x6 *1LB",
+      "price": "$60.67 / 6*1LB",
+      "brand": "Hormel Black Labelmany",
+      "Total": 0,
+      "Status": "Missing"
+    },
+    {
+      "id": 2,
+      "details": "Banana are tropical fruits. The principal countries producing avocado are Mexico, Dominican Republic, Peru, Colombia, Indonesia, Kenia, Chile and Israel",
+      "name": "Banana",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Bananas_white_background_DS.jpg/320px-Bananas_white_background_DS.jpg",
+      "Quantity": "0x6 *1LB",
+      "price": "$60.67 / 6*1LB",
+      "brand": "Hormel Black Labelmany",
+      "Total": 0,
+      "Status": "Missing"
+    },
+    {
+      "id": 3,
+      "details": "Grapes are tropical fruits. The principal countries producing avocado are Mexico, Dominican Republic, Peru, Colombia, Indonesia, Kenia, Chile and Israel",
+      "name": "Grapes",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Table_grapes_on_white.jpg/320px-Table_grapes_on_white.jpg",
+      "Quantity": "0x6 *1LB",
+      "price": "$60.67 / 6*1LB",
+      "brand": "Hormel Black Labelmany",
+      "Total": 0,
+      "Status": "Missing - Urgent"
+    },
+    {
+      "id": 4,
+      "details": "Pineapple are tropical fruits. The principal countries producing avocado are Mexico, Dominican Republic, Peru, Colombia, Indonesia, Kenia, Chile and Israel",
+      "name": "Pineapple",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Pineapple_and_cross_section.jpg/286px-Pineapple_and_cross_section.jpg",
+      "Quantity": "0x6 *1LB",
+      "price": "$60.67 / 6*1LB",
+      "brand": "Hormel Black Labelmany",
+      "Total": 0,
+      "Status": ""
+    }
+  ],
+  "fruitsList": [
+    {
+      "id": 1,
+      "details": "Apple are tropical fruits. The principal countries producing avocado are Mexico, Dominican Republic, Peru, Colombia, Indonesia, Kenia, Chile and Israel",
+
+      "name": "Apple",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Red_Apple.jpg/265px-Red_Apple.jpg",
+      "Quantity": "0x6 *1LB",
+      "price": "$60.67 / 6*1LB",
+      "brand": "Hormel Black Labelmany",
+      "Total": 0,
+      "Status": "",
+      "date": "07/23"
+    },
+    {
+      "id": 2,
+      "details": "Banana are tropical fruits. The principal countries producing avocado are Mexico, Dominican Republic, Peru, Colombia, Indonesia, Kenia, Chile and Israel",
+      "name": "Banana",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Bananas_white_background_DS.jpg/320px-Bananas_white_background_DS.jpg",
+      "Quantity": "0x6 *1LB",
+      "price": "$60.67 / 6*1LB",
+      "brand": "Hormel Black Labelmany",
+      "Total": 0,
+      "Status": "",
+      "date": "03/23"
+    },
+    {
+      "id": 3,
+      "details": "Grapes are tropical fruits. The principal countries producing avocado are Mexico, Dominican Republic, Peru, Colombia, Indonesia, Kenia, Chile and Israel",
+      "name": "Grapes",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Table_grapes_on_white.jpg/320px-Table_grapes_on_white.jpg",
+      "Quantity": "0x6 *1LB",
+      "price": "$60.67 / 6*1LB",
+      "brand": "Hormel Black Labelmany",
+      "Total": 0,
+      "Status": "",
+      "date": "05/23"
+    },
+    {
+      "id": 4,
+      "details": "Pineapple are tropical fruits. The principal countries producing avocado are Mexico, Dominican Republic, Peru, Colombia, Indonesia, Kenia, Chile and Israel",
+      "name": "Pineapple",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Pineapple_and_cross_section.jpg/286px-Pineapple_and_cross_section.jpg",
+      "Quantity": "0x6 *1LB",
+      "price": "$60.67 / 6*1LB",
+      "brand": "Hormel Black Labelmany",
+      "Total": 0,
+      "Status": "",
+      "date": "08/10"
+    }
+  ],
+  "tblHeading": [
+    {
+      "id": 1,
+      "head": "Product Name"
+    },
+    {
+      "id": 2,
+      "head": "Brand"
+    },
+    {
+      "id": 3,
+      "head": "Price"
+    },
+    {
+      "id": 4,
+      "body": "Quantity"
+    },
+    {
+      "id": 5,
+      "head": "Total"
+    },
+    {
+      "id": 6,
+      "head": "Status"
+    },
+    {
+      "id": 7,
+      "head": "Action"
+    }
+  ],
+  "product": {
+    "name": "typicode"
+  }
+}
